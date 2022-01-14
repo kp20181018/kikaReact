@@ -1,0 +1,5 @@
+.container {
+    display: flex;
+    /* background-color: #ddd; */
+    height: 80px;
+}
