@@ -1,0 +1,8 @@
+.pitanje {
+    margin: 20px;
+}
+
+.ponudjeniOdgovori {
+    display: flex;
+    align-items: center;
+}
