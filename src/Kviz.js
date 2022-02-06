@@ -8,7 +8,7 @@ function Kviz() {
   const [brojTacnihOdgovora, setBrojTacnihOdgovora] = useState(0);
 
   const onAnswerChange = (questionId, answerNumber) => {
-    let pomocniNiz = listaOdgovora;
+    let pomocniNiz = [...listaOdgovora];
     pomocniNiz[questionId] = answerNumber;
     setListaOdgovora(pomocniNiz);
   };

@@ -3,7 +3,6 @@ import './Pitanje.css';
 
 function Pitanje({ sadrzaj, selectedAnswer, onAnswerChange }) {
   const [selektovanOdgovor, setSelektovanOdgovor] = useState(selectedAnswer);
-
   return (
     <div className='pitanje'>
       <div>{sadrzaj.pitanje}</div>
